@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+h1:first-child {
+    font-family: 'Tangerine', cursive;
+    font-size: 188px;
+    text-align: center;
+    text-decoration: underline;
+    margin:60px;
+}
+
+h1{
+    text-align: center;
+    padding: 7px;
+}
+
+
+body {
+    font-family: 'Roboto Serif', serif;
+    background: rgb(174,203,238);
+    background: linear-gradient(90deg, rgba(174,203,238,1) 0%, rgba(255,255,255,0.8743698162858894) 99%);
+}
+
+.top {
+    text-align: center;
+    background-image: url("sketch.png");
+    opacity: 0.9;
+}
+
+.art-list {
+    display: inline-block;
+    line-height: 25px;
+    max-width: 30%;
+    padding:10px ;
+}
+
+.art-list ol {
+    text-align: center;
+}
+
+q {
+    display: block;
+    padding: 10px;
+}
+
+form {
+    margin: 10px auto;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border:solid;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 1300px;
+}
+
+
+
+form label {
+    text-align: left;
+}
+
+label, input, textarea{
+    padding: 20px;
+    width: 70%;
+    border:none;
+    border-radius: 3px;
+}
+
+input,textarea {
+    border-bottom: grey 2px solid;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+fieldset {
+    margin-top: 30px;
+    width: 40%;
+    align-items: left;
+    text-align: none;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+#subBut {
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    position: relative;
+    left:40%;
+    margin-left: -25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    background-color:  #85c1e9;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
+#subBut:hover{
+    background-color: #1799f0;
+    color:black
+}
+
+.vid{
+    display: block;
+    margin: 0 auto;
+    width:560px;
+    height:315px;
+    padding-bottom: 20px;
+}

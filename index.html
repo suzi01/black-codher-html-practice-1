@@ -4,59 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arttist</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Artist</title>
 </head>
 <body>
     <h1>Art Forver!</h1>
-    <p>Art (mainy drawing and sketching) is one of the most theropeutic hobbies I have. My
-        joy of dariwing stems into different areas including real life depiction, nature and
-     anime </p>
-    <ol>
-        <li>I've been learning to draw since I was 5 years old</li>
-        <li>It seems to be inherited - <strong>almost everyone in my family can draw!</strong></li>
-        <li>After a long hiatus I have <i>finally</i> returned to drawing, starting back from
-            where I originally began - comic book art
-        </li>
-    </ol>
-    <q><i><strong>Art is not what you see but what you make others see</strong></i></q> - by some other artist 
-    <hr>
+    <section class="top">
+        <p>Art (mainy drawing and sketching) is one of the most theropeutic hobbies I have. My
+            joy of dariwing stems into different areas including real life depiction, nature and
+            anime </p>
+        <div class="art-list">
+            <ol>
+                <li>I've been learning to draw since I was 5 years old</li>
+                <li>It seems to be inherited - <strong>almost everyone in my family can draw!</strong></li>
+                <li>After a long hiatus I have <i>finally</i> returned to drawing, starting back from
+                    where I originally began - comic book art
+                </li>
+            </ol>
+        </div>
 
+        <q><i><strong>Art is not what you see but what you make others see</strong></i>- by some other artist</q> 
+    </section>
     <h1>Let's build art together!</h1>
-    <form action="">
-        <label for="Name"></label>
-        <input type="text" placeholder="What's your name?">
-        <br>
-        <br>
+    <section class="fromSec">
+        <form action="mailto">
+            <label for="customerName">What is your name?</label>
+            <input type="text" placeholder="Your name is..." id="customerName">
+   
+            <label for="CustomerEmail">What is your email address?</label>
+            <input type="text" placeholder="Email address.." id="customerEmail">
+   
+            <label for="comments">How does art make you feel?</label>
+            <textarea name="text" id="" cols="30" rows="10" placeholder="Add your comments.."></textarea>
+           
+            <fieldset>
+                <legend>What's your favourite type of art?</legend>
+                <input type="radio" id="type1" name="Anime"> 
+                <label for="type1">Anime</label>
 
-        <label for="email"></label>
-        <input type="text" placeholder="Email address...">
-        <br>
-        <br>
+                <input type="radio" id="type2">
+                <label for="type2">Realism</label>
+   
+                <input type="radio" id="type3">
+                <label for="type3">Nature</label>
+   
+                <input type="radio" id="type4">
+                <label for="type4">Other</label>
+            </fieldset>
+           <input type="button" value="SEND" id="subBut">
 
-        <label for="textbox"></label>
-        <textarea name="text" id="" cols="30" rows="10" placeholder="How do you feel about art?"></textarea>
-        <br>
+           
+        </form>
+       
+        <br><br>
+        <!-- <img src="sketch.png" alt="digital sketch" class="bg-img"> -->
+    </section>
 
-        <p>What's your favourite type of art?</p>
-        <input type="radio" id="type1">
-        <label for="type1">Anime</label>
-        <br><br>
-        <input type="radio" id="type2">
-        <label for="type2">Realism</label>
-        <br><br>
-        <input type="radio" id="type3">
-        <label for="type3">Nature</label>
-        <br><br>
-        <input type="radio" id="type4">
-        <label for="type4">Other</label>
-        <br><br>
-        
-    </form>
-    <button type="submit">Submit</button>
-    <br><br>
-    <img width="750" height="500" src="sketch.png" alt="digital sketch">
-    <hr>
-    <h1>Here is a drawing video</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hhpQJkquioU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Here is a drawing video for your entertainment</h1>
+    <section class="bottom">
+        <iframe class="vid" src="https://www.youtube.com/embed/hhpQJkquioU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+   
 </body>
 </html>
