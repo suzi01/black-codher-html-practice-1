@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+body {
+    font-family: 'Roboto';
+    font-size: 26px;
+    background-color: #B0e298;
+    color: #000;
+    padding:20px
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+@media (max-width: 480px){
+    h1{
+        font-size: 20px;
+    }
+
+    body{
+        font-size: 14px;
+        background-color: #3d3b8e;
+        color: #fff
+    }
+};
+    
+p, .top{
+    text-align: center;
+}
+section{
+    padding: 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+form label, input, textarea, fieldset {
+    padding: 8px;
+    margin: 5px;
+}
