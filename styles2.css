@@ -56,16 +56,25 @@ form label, input, textarea, fieldset {
 }
 
 
-.container{
+/* .container{
     display: flex;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
-    /* float:left; */
     align-items: center;
-    /* flex-direction: column ; */
+} */
+
+.container{
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: auto auto ;
+    gap: 20px;
 }
 
+
 .bg-img {
-    width: 540px;
+    width: 480px;
     height: auto;
+    grid-column: 2;
+    grid-row: 1/3;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
 }
