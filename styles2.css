@@ -46,3 +46,26 @@ form label, input, textarea, fieldset {
     padding: 8px;
     margin: 5px;
 }
+
+#subBut{
+    width: 15%;
+    position: relative;;
+    left: 80%;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* float:left; */
+    align-items: center;
+    /* flex-direction: column ; */
+}
+
+.bg-img {
+    width: 540px;
+    height: auto;
+}
